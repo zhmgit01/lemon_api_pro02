@@ -1,0 +1,502 @@
+2020-09-14 15:20:09,691 - [test_01login.py-->line:42] - ERROR: 400 != 1
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 40, in test_login
+    self.assertEqual(response.status_code, 1)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 1
+2020-09-14 17:06:35,953 - [test_01login.py-->line:48] - ERROR: 200 != 1
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, 1)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 1
+2020-09-14 17:06:36,055 - [test_01login.py-->line:50] - ERROR: 用例登录成功，执行未通过
+2020-09-14 17:06:36,055 - [test_01login.py-->line:51] - ERROR: 200 != 1
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, 1)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 1
+2020-09-14 17:09:06,020 - [test_01login.py-->line:48] - ERROR: 200 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 201
+2020-09-14 17:09:06,092 - [test_01login.py-->line:50] - ERROR: 用例登录成功，执行未通过
+2020-09-14 17:09:06,092 - [test_01login.py-->line:51] - ERROR: 200 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 201
+2020-09-14 17:09:58,466 - [test_01login.py-->line:48] - ERROR: 200 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 201
+2020-09-14 17:09:58,550 - [test_01login.py-->line:50] - ERROR: 用例登录成功，执行未通过
+2020-09-14 17:09:58,550 - [test_01login.py-->line:51] - ERROR: 200 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 201
+2020-09-14 17:10:38,211 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:11:54,010 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:12:22,781 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:12:41,310 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:17:14,781 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:17:26,746 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:17:27,228 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:17:27,557 - [test_02register.py-->line:51] - ERROR: 用例不输入用户名，执行未通过
+2020-09-14 17:17:27,557 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:17:27,892 - [test_02register.py-->line:51] - ERROR: 用例不输入邮箱，执行未通过
+2020-09-14 17:17:27,892 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:17:28,220 - [test_02register.py-->line:51] - ERROR: 用例两次密码不一致，执行未通过
+2020-09-14 17:17:28,220 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:24:16,737 - [test_01login.py-->line:48] - ERROR: {'code': 200, 'username': 'test01'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYxODU2LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.fN_sd1qtJO1VtqMETBO-FXkQIchKvaydC53vmOfJQSA', 'user_id': 321, 'username': 'test01'}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 46, in test_login
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 200, 'username': 'test01'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYxODU2LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.fN_sd1qtJO1VtqMETBO-FXkQIchKvaydC53vmOfJQSA', 'user_id': 321, 'username': 'test01'}
+2020-09-14 17:24:16,817 - [test_01login.py-->line:50] - ERROR: 用例登录成功，执行未通过
+2020-09-14 17:24:16,817 - [test_01login.py-->line:51] - ERROR: {'code': 200, 'username': 'test01'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYxODU2LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.fN_sd1qtJO1VtqMETBO-FXkQIchKvaydC53vmOfJQSA', 'user_id': 321, 'username': 'test01'}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 46, in test_login
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'code': 200, 'username': 'test01'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYxODU2LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.fN_sd1qtJO1VtqMETBO-FXkQIchKvaydC53vmOfJQSA', 'user_id': 321, 'username': 'test01'}
+2020-09-14 17:24:17,196 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:24:17,454 - [test_02register.py-->line:51] - ERROR: 用例不输入用户名，执行未通过
+2020-09-14 17:24:17,454 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:24:17,714 - [test_02register.py-->line:51] - ERROR: 用例不输入邮箱，执行未通过
+2020-09-14 17:24:17,714 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:24:17,980 - [test_02register.py-->line:51] - ERROR: 用例两次密码不一致，执行未通过
+2020-09-14 17:24:17,980 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:30:00,589 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:30:00,866 - [test_02register.py-->line:51] - ERROR: 用例不输入用户名，执行未通过
+2020-09-14 17:30:00,866 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:30:01,138 - [test_02register.py-->line:51] - ERROR: 用例不输入邮箱，执行未通过
+2020-09-14 17:30:01,138 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:30:01,416 - [test_02register.py-->line:51] - ERROR: 用例两次密码不一致，执行未通过
+2020-09-14 17:30:01,416 - [test_02register.py-->line:52] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_02register.py", line 48, in test_register
+    self.assertEqual(response.status_code, 201)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-14 17:31:06,032 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:31:06,265 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:31:06,502 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:31:06,735 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 17:31:47,543 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:31:47,906 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:31:48,149 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:31:48,396 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:31:48,646 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 17:47:37,946 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:47:38,442 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:47:38,955 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:47:39,452 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 17:49:38,815 - [test_01login.py-->line:48] - ERROR: {'username': 'musen001'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYzMzc5LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.WWDrxrgxmCWc0u_voJBCY2jHeV_ph4em0ZXl9blX1YE', 'user_id': 321, 'username': 'test01'}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 46, in test_login
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'username': 'musen001'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYzMzc5LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.WWDrxrgxmCWc0u_voJBCY2jHeV_ph4em0ZXl9blX1YE', 'user_id': 321, 'username': 'test01'}
+2020-09-14 17:49:39,144 - [test_01login.py-->line:50] - ERROR: 用例登录成功，执行未通过
+2020-09-14 17:49:39,144 - [test_01login.py-->line:51] - ERROR: {'username': 'musen001'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYzMzc5LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.WWDrxrgxmCWc0u_voJBCY2jHeV_ph4em0ZXl9blX1YE', 'user_id': 321, 'username': 'test01'}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 46, in test_login
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'username': 'musen001'} items not in {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozMjEsInVzZXJuYW1lIjoidGVzdDAxIiwiZXhwIjoxNjAwMTYzMzc5LCJlbWFpbCI6InRlc3QwMUBxcS5jb20ifQ.WWDrxrgxmCWc0u_voJBCY2jHeV_ph4em0ZXl9blX1YE', 'user_id': 321, 'username': 'test01'}
+2020-09-14 17:49:39,797 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:49:40,338 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:49:40,811 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:49:41,356 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 17:50:58,686 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 17:50:59,300 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:50:59,839 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:51:00,333 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:51:00,881 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 17:51:24,963 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:51:25,453 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:51:25,982 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:51:26,537 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 17:52:42,606 - [test_02register.py-->line:56] - INFO: 用例注册成功，执行通过
+2020-09-14 17:52:43,126 - [test_02register.py-->line:56] - INFO: 用例不输入用户名，执行通过
+2020-09-14 17:52:43,669 - [test_02register.py-->line:56] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 17:52:44,167 - [test_02register.py-->line:56] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 18:11:08,572 - [test_03projects.py-->line:67] - ERROR: 用例添加成功，执行未通过
+2020-09-14 18:11:08,572 - [test_03projects.py-->line:68] - ERROR: 401 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 201
+2020-09-14 18:11:08,825 - [test_03projects.py-->line:67] - ERROR: 用例不填项目名，执行未通过
+2020-09-14 18:11:08,825 - [test_03projects.py-->line:68] - ERROR: 401 != 400
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 400
+2020-09-14 18:11:22,526 - [test_03projects.py-->line:67] - ERROR: 用例添加成功，执行未通过
+2020-09-14 18:11:22,527 - [test_03projects.py-->line:68] - ERROR: 401 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 201
+2020-09-14 18:11:22,787 - [test_03projects.py-->line:67] - ERROR: 用例不填项目名，执行未通过
+2020-09-14 18:11:22,787 - [test_03projects.py-->line:68] - ERROR: 401 != 400
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 400
+2020-09-14 18:12:36,814 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:12:38,012 - [test_03projects.py-->line:67] - ERROR: 用例添加成功，执行未通过
+2020-09-14 18:12:38,012 - [test_03projects.py-->line:68] - ERROR: 401 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 201
+2020-09-14 18:12:38,259 - [test_03projects.py-->line:67] - ERROR: 用例不填项目名，执行未通过
+2020-09-14 18:12:38,260 - [test_03projects.py-->line:68] - ERROR: 401 != 400
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 400
+2020-09-14 18:13:26,474 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:13:27,692 - [test_03projects.py-->line:67] - ERROR: 用例添加成功，执行未通过
+2020-09-14 18:13:27,692 - [test_03projects.py-->line:68] - ERROR: 401 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 201
+2020-09-14 18:13:27,940 - [test_03projects.py-->line:67] - ERROR: 用例不填项目名，执行未通过
+2020-09-14 18:13:27,941 - [test_03projects.py-->line:68] - ERROR: 401 != 400
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 400
+2020-09-14 18:14:39,239 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:14:39,606 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-14 18:14:39,839 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-14 18:14:40,073 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 18:14:40,321 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 18:14:40,693 - [test_03projects.py-->line:67] - ERROR: 用例添加成功，执行未通过
+2020-09-14 18:14:40,693 - [test_03projects.py-->line:68] - ERROR: 401 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 201
+2020-09-14 18:14:40,932 - [test_03projects.py-->line:67] - ERROR: 用例不填项目名，执行未通过
+2020-09-14 18:14:40,932 - [test_03projects.py-->line:68] - ERROR: 401 != 400
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_03projects.py", line 64, in test_projects
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 400
+2020-09-14 18:16:23,619 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:16:24,211 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-14 18:16:24,691 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-14 18:16:25,213 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 18:16:25,717 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 18:17:51,669 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:17:52,273 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-14 18:17:52,836 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-14 18:17:53,370 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 18:17:53,887 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 18:19:10,771 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:19:11,372 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-14 18:19:11,883 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-14 18:19:12,355 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 18:19:12,831 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-14 18:20:12,399 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-14 18:20:13,015 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-14 18:20:13,492 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-14 18:20:14,018 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-14 18:20:14,512 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 09:45:47,405 - [test_01login.py-->line:48] - ERROR: 400 != 200
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 200
+2020-09-15 09:45:47,481 - [test_01login.py-->line:50] - ERROR: 用例登录成功，执行未通过
+2020-09-15 09:45:47,481 - [test_01login.py-->line:51] - ERROR: 400 != 200
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_01login.py", line 45, in test_login
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 200
+2020-09-15 09:45:47,844 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 09:45:48,112 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 09:45:48,374 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 09:45:48,629 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 09:56:29,236 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 09:56:29,620 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 09:56:29,868 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 09:56:30,107 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 09:56:30,343 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 09:56:30,768 - [test_03projects.py-->line:72] - INFO: 用例添加成功，执行通过
+2020-09-15 09:56:31,003 - [test_03projects.py-->line:72] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:02:37,577 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:02:37,944 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:02:38,182 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:02:38,435 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:02:38,690 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:02:39,158 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:02:39,413 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:02:39,655 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:26:41,295 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:26:41,654 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:26:41,894 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:26:42,159 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:26:42,406 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:26:42,871 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:26:43,112 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:26:43,352 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:26:43,933 - [test_04interface.py-->line:83] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_04interface.py", line 80, in test_interface
+    self.assertEqual(response.status_code, case['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-09-15 10:26:43,935 - [test_04interface.py-->line:84] - ERROR: 用例添加成功，执行未通过
+2020-09-15 10:26:44,109 - [test_04interface.py-->line:83] - ERROR: {'project_id': [32], 'tester': '木木木', 'desc': '注册接口'} items not in {'name': ['该字段是必填项。'], 'project_id': ['类型错误。期望为主键，获得的类型为 list。']}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_04interface.py", line 81, in test_interface
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'project_id': [32], 'tester': '木木木', 'desc': '注册接口'} items not in {'name': ['该字段是必填项。'], 'project_id': ['类型错误。期望为主键，获得的类型为 list。']}
+2020-09-15 10:26:44,110 - [test_04interface.py-->line:84] - ERROR: 用例不填接口名，执行未通过
+2020-09-15 10:26:44,290 - [test_04interface.py-->line:83] - ERROR: {'name': '前程贷397236-登录', 'project_id': [32], 'tester': '木木木', 'desc': '注册接口'} items not in {'project_id': ['类型错误。期望为主键，获得的类型为 list。']}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_04interface.py", line 81, in test_interface
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': '前程贷397236-登录', 'project_id': [32], 'tester': '木木木', 'desc': '注册接口'} items not in {'project_id': ['类型错误。期望为主键，获得的类型为 list。']}
+2020-09-15 10:26:44,290 - [test_04interface.py-->line:84] - ERROR: 用例接口名已存在，执行未通过
+2020-09-15 10:27:17,045 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:27:17,399 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:27:17,655 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:27:17,882 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:27:18,143 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:27:18,612 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:27:18,869 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:27:19,122 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:27:19,682 - [test_04interface.py-->line:88] - INFO: 用例添加成功，执行通过
+2020-09-15 10:27:19,839 - [test_04interface.py-->line:83] - ERROR: {'project_id': 34, 'tester': '木木木', 'desc': '注册接口'} items not in {'name': ['该字段是必填项。']}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_04interface.py", line 81, in test_interface
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'project_id': 34, 'tester': '木木木', 'desc': '注册接口'} items not in {'name': ['该字段是必填项。']}
+2020-09-15 10:27:19,842 - [test_04interface.py-->line:84] - ERROR: 用例不填接口名，执行未通过
+2020-09-15 10:27:20,021 - [test_04interface.py-->line:83] - ERROR: {'name': '新闻APP481538-登录', 'project_id': 34, 'tester': '木木木', 'desc': '注册接口'} items not in {'name': ['具有 接口名称 的 接口信息 已存在。']}
+Traceback (most recent call last):
+  File "E:\practice\py31\lemon_api_pro02\testcases\test_04interface.py", line 81, in test_interface
+    assert_dict_item(expected, res)
+  File "E:\practice\py31\lemon_api_pro02\tools\tools.py", line 35, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': '新闻APP481538-登录', 'project_id': 34, 'tester': '木木木', 'desc': '注册接口'} items not in {'name': ['具有 接口名称 的 接口信息 已存在。']}
+2020-09-15 10:27:20,022 - [test_04interface.py-->line:84] - ERROR: 用例接口名已存在，执行未通过
+2020-09-15 10:29:52,095 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:29:52,463 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:29:52,692 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:29:52,928 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:29:53,150 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:29:53,598 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:29:53,832 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:29:54,069 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:29:54,648 - [test_04interface.py-->line:88] - INFO: 用例添加成功，执行通过
+2020-09-15 10:29:54,809 - [test_04interface.py-->line:88] - INFO: 用例不填接口名，执行通过
+2020-09-15 10:29:54,980 - [test_04interface.py-->line:88] - INFO: 用例接口名已存在，执行通过
+2020-09-15 10:50:27,638 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:50:27,876 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:50:28,103 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:50:28,644 - [test_04interface.py-->line:88] - INFO: 用例添加成功，执行通过
+2020-09-15 10:50:28,783 - [test_04interface.py-->line:88] - INFO: 用例不填接口名，执行通过
+2020-09-15 10:50:28,925 - [test_04interface.py-->line:88] - INFO: 用例接口名已存在，执行通过
+2020-09-15 10:50:41,111 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:50:41,477 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:50:41,721 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:50:42,006 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:50:42,254 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:50:42,748 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:50:42,992 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:50:43,250 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:50:43,848 - [test_04interface.py-->line:88] - INFO: 用例添加成功，执行通过
+2020-09-15 10:50:44,012 - [test_04interface.py-->line:88] - INFO: 用例不填接口名，执行通过
+2020-09-15 10:50:44,183 - [test_04interface.py-->line:88] - INFO: 用例接口名已存在，执行通过
+2020-09-15 10:52:05,132 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:52:05,485 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:52:05,715 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:52:05,941 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:52:06,177 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:52:06,622 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:52:06,872 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:52:07,108 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:52:07,687 - [test_04interface.py-->line:88] - INFO: 用例添加成功，执行通过
+2020-09-15 10:52:07,857 - [test_04interface.py-->line:88] - INFO: 用例不填接口名，执行通过
+2020-09-15 10:52:08,044 - [test_04interface.py-->line:88] - INFO: 用例接口名已存在，执行通过
+2020-09-15 10:53:10,279 - [test_01login.py-->line:55] - INFO: 用例登录成功，执行通过
+2020-09-15 10:53:10,650 - [test_02register.py-->line:57] - INFO: 用例注册成功，执行通过
+2020-09-15 10:53:10,890 - [test_02register.py-->line:57] - INFO: 用例不输入用户名，执行通过
+2020-09-15 10:53:11,138 - [test_02register.py-->line:57] - INFO: 用例不输入邮箱，执行通过
+2020-09-15 10:53:11,389 - [test_02register.py-->line:57] - INFO: 用例两次密码不一致，执行通过
+2020-09-15 10:53:11,851 - [test_03projects.py-->line:77] - INFO: 用例添加成功，执行通过
+2020-09-15 10:53:12,091 - [test_03projects.py-->line:77] - INFO: 用例不填项目名，执行通过
+2020-09-15 10:53:12,360 - [test_03projects.py-->line:77] - INFO: 用例项目名已存在，执行通过
+2020-09-15 10:53:12,925 - [test_04interface.py-->line:88] - INFO: 用例添加成功，执行通过
+2020-09-15 10:53:13,090 - [test_04interface.py-->line:88] - INFO: 用例不填接口名，执行通过
+2020-09-15 10:53:13,253 - [test_04interface.py-->line:88] - INFO: 用例接口名已存在，执行通过
+2020-09-15 10:53:13,930 - [test_05testcases.py-->line:104] - INFO: 用例添加成功，执行未通过
+2020-09-15 10:53:14,103 - [test_05testcases.py-->line:104] - INFO: 用例不填用例名，执行未通过
+2020-09-15 10:53:14,282 - [test_05testcases.py-->line:104] - INFO: 用例用例名已存在，执行未通过
